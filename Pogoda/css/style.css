@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.weatherBox {
+    height: calc(100vh - 21px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.weather {
+    border: 5px solid #D4D0D0;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+    align-self: center;
+}
+
+.cityname {
+    border-bottom: 2px dotted #D4D0D0;
+}
+
+.ikona {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
