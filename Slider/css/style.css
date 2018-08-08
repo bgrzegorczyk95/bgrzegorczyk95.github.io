@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.slider {
+    width: 700px;
+    height: 466.6px;
+    margin: 25px auto;
+    position: relative;
+    border: 10px solid white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.box {
+    margin: 0;
+    margin-bottom: -5px;
+}
+
+.next, .prev {
+    position: absolute;
+    top: 200px;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    color: white;
+    background: blue;
+    cursor: pointer;
+}
+
+.next {
+    right: 0;
+}
