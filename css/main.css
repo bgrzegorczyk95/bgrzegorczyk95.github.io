@@ -124,6 +124,10 @@ body {
     font-size: 60px;
 }
 
+.about-box p {
+    margin: 0;
+}
+
 .services-section {
     background: url(../img/services_bg.png) no-repeat;
     background-size: cover;
