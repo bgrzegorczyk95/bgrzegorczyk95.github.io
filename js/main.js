@@ -8,7 +8,7 @@ let trigger = document.querySelectorAll('.navigation-menu li');
 
 trigger = [...trigger];
 
-const scrollTab = ["#home","#about","#services","#gallery","#contact"];
+const scrollTab = ["#home","#about","#services","#gallery","#blog","#contact"];
 
 for(let i = 0; i < trigger.length; i++) {
         let target = document.querySelector(scrollTab[i]);

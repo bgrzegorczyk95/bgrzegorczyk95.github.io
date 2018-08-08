@@ -75,7 +75,7 @@ body {
     display: flex;
     flex-direction: column;
     
-    padding: 20px;
+    padding: 0 15px;
     padding-top: 130px;
     text-align: center;
 }
@@ -108,13 +108,13 @@ body {
     font-weight: 300;
 }
 
-.about-section {
+.about-section {    
     background: url(../img/about_bg.png) no-repeat;
     background-size: cover;
     background-position: 50%;
     
     margin-top: -40px;
-    padding: 20px;
+    padding: 0 15px;
     text-align: center;
 }
 
@@ -129,7 +129,7 @@ body {
     background-size: cover;
     background-position: center;
     
-    padding: 20px;
+    padding: 0 15px;
     overflow: hidden
 }
 
@@ -171,7 +171,7 @@ body {
 
 .gallery-section {
     background-color: #ffe92f;
-    padding: 20px;
+    padding: 0 15px;
 
     text-align: center;
 }
@@ -186,10 +186,15 @@ body {
     font-weight: 700;
     font-size: 60px;
     margin: 0;
+    line-height: 27px;
+    padding-top: 100px;
+    padding-bottom: 46px;
 }
 
 .gallery-section .gallery-content p {
     margin: 0;
+    line-height: 27px;
+    padding-bottom: 46px;
 }
 
 .gallery-section .gallery-btn {
@@ -199,10 +204,192 @@ body {
     text-transform: uppercase;
     color: white;
     box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+    margin-bottom: 120px;
 }
 
 .gallery-section .gallery-btn:hover {
     background-color: #3797d0;
+    box-shadow: 0px 3px 31px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.subscribe-section {
+    background: url(../img/subscribe_bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.subscribe-section .subscribe-box {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-box .subscribe-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 27px;
+
+    margin: 0;
+    padding-top: 145px;
+    padding-bottom: 34px;
+}
+
+.subscribe-box p {
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+.subscribe-box .subscribe-input {   
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+
+    margin-bottom: 31px;
+    padding: 21px 15px;
+}
+
+.subscribe-box .subscribe-btn {
+    box-sizing: border-box;
+    width: 170px;
+    padding: 20px 31px;
+
+    margin: auto;
+    margin-bottom: 163px;
+    border: 0;
+    text-transform: uppercase;
+    background-color: #96b92c;
+    color: #ffffff;
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+}
+
+.subscribe-box .subscribe-btn:hover {
+    background-color: #b3e223;
+    box-shadow: 0px 3px 31px 0px rgba(0,0,0,0.75);
+
+    cursor: pointer;
+}
+
+.blog-section {
+    background-color: #b07cf7;
+    
+    text-align: center;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.blog-section .blog-text {
+    color: #ffffff;
+}
+
+.blog-text .blog-title {
+    margin: 0;
+
+    line-height: 25px;
+    font-size: 90px;
+    font-weight: 700;
+    padding-top: 102px;
+    padding-bottom: 52px;
+}
+
+.blog-text p {
+    line-height: 25px;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.blog-box .blog-gallery {
+    margin: 0;
+}
+
+.blog-gallery .blog-img {
+    position: relative;
+    width: 100%;
+    height: 310px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+}
+
+.blog-gallery .blog-img_1 {
+    background: url('../img/blog_1.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-gallery .blog-img_2 {
+    background: url('../img/blog_2.png') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.blog-gallery .blog-img_3 {
+    background: url('../img/blog_3.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-gallery .blog-img .blog-img-date {
+    background-color: rgba(51, 44, 44, 0.5);
+    color: #ffffff;
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 25px;
+    
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    
+    width: 60px;
+    border-radius: 5px;
+}
+
+.blog-gallery .blog-img .blog-img-month {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.blog-gallery .blog-img .blog-img-description {
+    text-align: left;
+    position: absolute;
+    bottom: 85px;
+    left: 20px;
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.blog-gallery .blog-img .blog-img-author {
+    position: absolute;
+    bottom: 26px;
+    left: 20px;
+
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.blog-box .blog-btn {
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 120px;
+
+    background-color: #f72b3b;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+}
+
+.blog-box .blog-btn:hover {
+    background-color: #fd0014;
     box-shadow: 0px 3px 31px 0px rgba(0,0,0,0.75);
     cursor: pointer;
 }
@@ -227,11 +414,14 @@ body {
     margin: 0;
     font-size: 90px;
     font-weight: 700;
-    padding-top: 60px;
+    line-height: 25px;
+    padding-top: 103px;
+    padding-bottom: 48px;
 }
 
 .contact-section .contact-box p {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    line-height: 25px;
 }
 
 .contact-section .contact-form input,
@@ -257,11 +447,13 @@ body {
     text-transform: uppercase;
     margin: 0;
     font-size: 17px;
+    color: #ffffff;
 }
 
 .contact-section .contact-box .contact-details p {
     margin: 0;
     font-size: 20px;
+    color: #ffffff;
 }
 
 .page-footer {
@@ -274,6 +466,10 @@ body {
     margin: 0;
     margin-bottom: 5px;
     color: #b9b9b9;
+}
+
+.page-footer .footer-content .love-color {
+    color: #f12b55;
 }
 
 @media (max-width: 1000px) {
@@ -296,10 +492,14 @@ body {
     .about-section .about-box,
     .services-section .services-box,
     .gallery-section .gallery-box,
-    .contact-section .contact-box
+    .contact-section .contact-box,
+    .subscribe-section .subscribe-box,
+    .blog-section .blog-box
      {
+        box-sizing: border-box;
         max-width: 1200px;
         margin: auto;
+        padding: 0px 15px;
     }
 
     .header-box {
@@ -383,6 +583,12 @@ body {
         padding: 0;
     }
 
+    .about-section .about-title {
+        font-size: 90px;
+        line-height: 27px;
+        padding-bottom: 35px;
+    }
+
     .section-content {
         padding-top: 180px;
         padding-bottom: 230px;
@@ -404,17 +610,17 @@ body {
     }
 
     .services-content .services-title {
-        margin-right: 100px;
-        margin-left: auto;
-        padding-top: 151px;
+        padding-left: 131px;
+        padding-top: 155px;
         order: 2;
         color: white;
         font-size: 90px;
-        font-weight: 700;
+        font-weight: 400;
     }
 
     .services-content .services-nav {
         order: 1;
+        margin-left: 100px;
     }
 
     .services-section .services-nav li {
@@ -437,11 +643,7 @@ body {
     }
 
     .gallery-section .gallery-title {
-        margin: 0;
-        padding-top: 100px;
-        padding-bottom: 40px;
         font-size: 90px;
-        line-height: 70px;
     }
 
     .gallery-section .gallery-content {
@@ -495,6 +697,60 @@ body {
         padding: 20px 43px;
     }
 
+    .subscribe-box .subscribe-text {
+        text-align: left;
+        width: 570px;
+    }
+
+    .subscribe-box .subscribe-text p {
+        line-height: 27px;
+    }
+
+    .subscribe-box .email-box {
+        display: inline-block;
+        margin-right: auto;
+        margin-left: 0;
+        margin-bottom: 162px;
+    }
+
+    .subscribe-box .subscribe-input {
+        width: 570px;
+        margin-left:0px;
+        margin-right: 30px;
+    }
+
+    .subscribe-box .subscribe-btn {
+        margin: 0;
+        width: 170px;
+        padding: 20px 31px;
+    }
+
+    .blog-box .blog-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .blog-box .blog-text {
+        width: 570px;
+        margin: auto;
+    }
+
+    .blog-gallery .blog-img {
+        width: 30%;
+        height: 310px;
+    }
+
+    .blog-gallery .blog-img_1,
+    .blog-gallery .blog-img_2 {
+        margin-right: 30px;
+    }
+
+    .blog-gallery .blog-btn {
+        
+    }
+
     .contact-section .contact-title-box {
         margin: auto;
         width: 370px;
@@ -518,6 +774,12 @@ body {
     .contact-box .form-box .contact-details {
         text-align: left;
         padding-left: 170px;
+        color: #262626;
+    }
+
+    .contact-box .form-box .contact-details p,
+    .contact-box .form-box .contact-details h4 {
+        color: #262626;
     }
 
     .page-footer .footer-content {
