@@ -36,11 +36,14 @@ class Game extends Card {
       });
     }, 1000);
 
-    this.reload();
+    const okBtn = document.querySelector('.ok-btn');
+
+    this.reload(okBtn);
   }
 
-  reload() {
-    const okBtn = document.querySelector('.ok-btn');
+  reload(okBtn) {
+    this.okBtn = okBtn;
+
     okBtn.addEventListener('click', () => {
       window.location.reload();
     });
